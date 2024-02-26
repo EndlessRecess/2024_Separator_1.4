@@ -1,6 +1,46 @@
-# React CSV Importer
+# 2024_Separator_1.1
 
-[![https://www.npmjs.com/package/react-csv-importer](https://img.shields.io/npm/v/react-csv-importer)](https://www.npmjs.com/package/react-csv-importer) [![https://github.com/beamworks/react-csv-importer/actions](https://github.com/beamworks/react-csv-importer/actions/workflows/test.yml/badge.svg)](https://github.com/beamworks/react-csv-importer/actions)
+# KeepEmSeparated
+### Tree Data Loader
+
+This project is to build an application that helps clean and parse tree planting data from a single spreadsheet (standard form) into a normalized data structure comprised of three tables Land, Trees, and Planted (join).  
+
+Note there is this project which started with this [beamworks react-csv-importer Repo](https://github.com/beamworks/react-csv-importer.git)
+
+And there is [this one](https://github.com/EndlessRecess/2024_KeepEmSeparated_2.0) which Kevin started 26 Feb 2024 
+
+### Data Separation Process 
+The first step is to clean and migrate a lot of data using a Machine Learning Migration Application. MLMA This is where YOU come in. We have a lot of experience with tree data but not ML Migration tools. We are happy to talk shop, receive consultation (free or paid), or even hire someone to build this. Main thing is you have experience building these tools and are motivated like us. If so please read on:
+
+The Machine Learning Migration Application should be as follows:
+
+- We need a data modeler interested in building an ML migration application for tree planting data.
+- We have many, somewhat similar, CSV’s that need to be import and migrate to two-three database tables (Build from scratch, no database yet)
+- Tree planting data always comes in one excel report with trees and land on the same table. 
+- They must be separated into two tables (Trees and Land) with a join where the planting occurs.
+- We want to build a semantic model that will automate the importing of these many csv data reports. 
+- The application will have a front end to upload the CSVs, clean up the data and display it for users to interact and validate before sending on to the database. 
+- The application will likely to include some ML functions to help with the transformation.
+
+In sum, it will do: 	
+- Some cleanup
+- Do transformation (ETL scripts) to transform data
+- Review and stage data prior to submission.
+
+See also :
+- [This youtube video](https://www.youtube.com/watch?v=tKA1A1eiY6I) I made.
+- [This Spreadsheet Sheet](https://docs.google.com/spreadsheets/d/1EjI2NxuJr7_bYplrmCVnpbOfzJ9tBFvanZjayZBGaiA/edit#gid=1176783621)
+with examples and a prototype on “Generic Header Info” sheet.
+- [This job description doc](https://docs.google.com/document/d/18RmQA99oOM-I0HrlV01_iO5gtVf2NOKrPw70KVjs3gw/edit) (Same as readme but see photo at the bottom). 
+- Latest template [file is here](https://docs.google.com/spreadsheets/d/1s23N2lSPeZiSTvbV2tGCkLRBSh5Irw1N8iVKQfioZ9g/edit#gid=1328344498)
+
+Thanks Please let me know if you have any questions.
+Regards, 
+Chris
+24 Feb 2024
+
+
+### React-csv-importer
 
 This library combines an uploader + CSV parser + raw file preview + UI for custom user column
 mapping, all in one.
