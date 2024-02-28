@@ -23,7 +23,7 @@ The Machine Learning Migration Application should be as follows:
 - The application will likely to include some ML functions to help with the transformation.
 
 In sum, it will do: 	
-- Some cleanup
+- Cleanup & pre-processing
 - Do transformation (ETL scripts) to transform data
 - Review and stage data prior to submission.
 
