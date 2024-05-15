@@ -13,7 +13,6 @@ And there is [this one](https://github.com/EndlessRecess/2024_KeepEmSeparated_2.
 The first step is to clean and migrate a lot of data using a Machine Learning Migration Application. MLMA This is where YOU come in. We have a lot of experience with tree data but not ML Migration tools. We are happy to talk shop, receive consultation (free or paid), or even hire someone to build this. Main thing is you have experience building these tools and are motivated like us. If so please read on:
 
 The Machine Learning Migration Application should be as follows:
-
 - We need a data modeler interested in building an ML migration application for tree planting data.
 - We have many, somewhat similar, CSV’s that need to be import and migrate to two-three database tables (Build from scratch, no database yet)
 - Tree planting data always comes in one excel report with trees and land on the same table. 
